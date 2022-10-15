@@ -1,0 +1,25 @@
+.encabezado{
+    background: red;
+    margin:100px;
+    border: 20px;
+    width: 100000px;
+    text-align: start;
+    padding:40px;
+    
+}
+body{
+    background-color: rgb(198, 198, 241);
+}
+html{
+    font-size:16px;
+}
+.Boton1{
+    width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+.Boton2{
+    width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
