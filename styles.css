@@ -23,3 +23,12 @@ html{
   margin: 0 0.5em 0 0;
   vertical-align: middle;
 }
+.welcome{
+  padding: 20px;
+  background-color: bisque;
+  margin: 100px;
+  text-align: center;
+  border: 0px;
+  width: 250px;
+ 
+}
