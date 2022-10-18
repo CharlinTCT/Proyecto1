@@ -20,5 +20,3 @@ function mostrarNombre(nombre) {
  h2.textContent = nombre
 }
 
-
-

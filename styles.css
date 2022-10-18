@@ -1,35 +1,57 @@
-.encabezado{
-    background: red;
-    margin:100px;
-    border: 20px;
-    width: 100000px;
-    text-align: start;
-    padding:40px;
-    
+/* nav */
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #be3144;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
+  color:white;
 }
-body{
-    background-color: rgb(198, 198, 241);
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
 }
-html{
-    font-size:16px;
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
 }
-.Boton1{
-    width: unset;
-  margin: 0 0.5em 0 0;
-  vertical-align: middle;
+
+.nav-list a {
+  display: block;
+  font-size: 2.2rem;
+  padding: 2rem;
 }
-.Boton2{
-    width: unset;
-  margin: 0 0.5em 0 0;
-  vertical-align: middle;
+
+.nav-list a:hover {
+  background: var(--main-blue);
 }
-/*boton de introducir name*/
-.welcome{
-  padding: 20px;
-  background-color: bisque;
-  margin: 100px;
-  text-align: center;
-  border: 0px;
-  width: 250px;
- 
+
+/* Welcome section */
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  color:black;
+}
+
+.welcome-section > p {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: #be3144;
 }
