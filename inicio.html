@@ -11,12 +11,92 @@
     </head>
 
     <body>
-        <h1>Welcome a la pagina</h1>
+        <h1 class="h1W">Welcome a la pagina</h1>
         <!--para inicio de seccion con java script-->
+        <div>
+          <div class="registrarte">Registrarte</div>
+          <div class="rgt1"> y opten todo el conocimiento totalmente gratis</div>
     <article> <center>
+       <!--Formulario de registro-->
         <form name="form" action="inicio sesión">
-          <p>Usuario: <input type="text" name="login"></p>
-          <p>Contraseña <input type="password" name="password"> <br></p>
+          <!--Nombre-->
+          <div class="rgt2">
+          <input id="Nombre" type="text" class="Nombre" required
+          placeholder="Nombre"></div><br>
+          <!--Email-->
+          <div class="rgt3">
+           <input id="Email" type="text" class="Email" required
+           placeholder="Email"></div><br>
+           <!--contraseña-->
+           <div class="rgt4">
+          <input id="Contraseña" type="text" class="Contraseña" required
+          placeholder="Contraseña"></div><br>
+          <!--Fecha de nacimiento-->
+          <div class="mt">Fecha de nacimiento</div>
+          <!--Boton de ayuda-->
+          <a class="ml" id="birthday-help" href=".." title="help" role="button">..</a>
+          <span data-type="selectors" data-name="birthday_S" id="sp1">
+            <!--Día de nacimiento-->
+          <div class="Fecha"> 
+            <a>Día</a>
+            <select  class="Dia" label="Fecha" name="Dia" id="Dia" title="Dia" required placeholder="Mes"></div><br>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select><br>
+            
+            <!--Mes de nacimiento-->
+
+            <a>Mes</a>
+            <select  class="Mes" label="Fecha" name="Mes" id="Mes" title="Mes" required placeholder="Mes"></div><br>
+            <option value="ene">Ene</option>
+            <option value="feb">Feb</option>
+            <option value="mar">Mar</option>
+            <option value="abr">Abr</option>
+            <option value="may">May</option>
+            <option value="jun">Jun</option>
+            <option value="jul">Jul</option>
+            <option value="ago">Ago</option>
+            <option value="sep">Sep</option>
+            <option value="oct">Oct</option>
+            <option value="nov">Nov</option>
+            <option value="dic">Dic</option>
+            
+          </select><br>
+          <a>Año</a>
+          <!--AÑO de nacimiento-->
+            <select class="año" aria-label="año" name="birthday_year" id="año" title="año"></select><br>
+            <option value="2022">2022</option>
+            <option value="2022">2022</option>
+          </span>
           <button  href="inicio.html" target="_blank" onclick="" type="botton" value="Iniciar sesión"> Iniciar sesión</button>
   
         </form>
@@ -24,6 +104,8 @@
       </center>
   
     </article>
+  
+    </div>
     </body>
 </html>
         

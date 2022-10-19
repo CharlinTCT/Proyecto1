@@ -3,8 +3,9 @@ var boton_popUp1 = document.querySelector('#boton_popUp1');
 boton_popUp1.addEventListener('click', function(){
 
     window.location.assign("inicio.html");
-
 });
+
+
 
 
 
