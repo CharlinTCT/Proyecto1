@@ -1,7 +1,17 @@
 /*Roles:
 1 usuario,
 2 administrador
-*/
+para iniciar seccion*/
+
+
+
+
+
+
+
+
+
+
 //pararegistrarte
 function obtenerlogin(){
     var login = Charlín
@@ -9,7 +19,7 @@ function obtenerlogin(){
 
 
 
-
+/*
 //para iniciar sesión
 function Q (){
     var Contraseña = Pepe;
@@ -22,4 +32,4 @@ function Q (){
         alert("Contraseña erronea, intentelo de nuevo");
     }
   
-}
+}*/
