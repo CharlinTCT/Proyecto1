@@ -1,3 +1,14 @@
+//redireccionar al inicio.html
+var boton_popUp1 = document.querySelector('#boton_popUp1');
+boton_popUp1.addEventListener('click', function(){
+
+    window.location.assign("inicio.html");
+
+});
+
+
+
+
 // click en el botón
 const boton = document.getElementById("boton")
 
