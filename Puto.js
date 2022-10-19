@@ -19,4 +19,3 @@ function mostrarNombre(nombre) {
  h1.textContent = "Hola"
  h2.textContent = nombre
 }
-
